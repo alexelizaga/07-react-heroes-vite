@@ -10,6 +10,7 @@
 188. First Router
 189. Active route class
 190. Second Router
+191. Navigat push / replace - useNavigate
 
 ## Tests
 
