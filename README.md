@@ -12,6 +12,7 @@
 190. Second Router
 191. Navigat push / replace - useNavigate
 192. Heroes list
+193. Hero Card
 
 ## Tests
 
