@@ -13,7 +13,8 @@
 191. Navigat push / replace - useNavigate
 192. Heroes list
 193. Hero Card
-194. Read url params
+195. Read url params
+196. Hero styles
 
 ## Tests
 
