@@ -15,6 +15,7 @@
 193. Hero Card
 195. Read url params
 196. Hero styles
+197. useNemo
 
 ## Tests
 
