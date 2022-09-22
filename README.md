@@ -21,6 +21,7 @@
 200. SearchComponent
 201. Heroes list
 202. Conditional message
+203. Context and Reducer
 
 ## Tests
 
