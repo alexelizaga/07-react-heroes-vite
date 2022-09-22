@@ -20,6 +20,7 @@
 199. Search page design
 200. SearchComponent
 201. Heroes list
+202. Conditional message
 
 ## Tests
 
