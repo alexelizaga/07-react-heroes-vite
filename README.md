@@ -19,6 +19,7 @@
 198. Animations
 199. Search page design
 200. SearchComponent
+201. Heroes list
 
 ## Tests
 
