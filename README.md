@@ -18,6 +18,7 @@
 197. useNemo
 198. Animations
 199. Search page design
+200. SearchComponent
 
 ## Tests
 
