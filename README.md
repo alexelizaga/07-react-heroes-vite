@@ -27,6 +27,7 @@
 211. User logout
 212. Private routes
 213. Public routes
+214. Remember last view page
 
 ## Tests
 
