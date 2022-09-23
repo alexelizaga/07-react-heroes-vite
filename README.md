@@ -28,6 +28,7 @@
 212. Private routes
 213. Public routes
 214. Remember last view page
+218. Jest setup
 
 ## Tests
 
@@ -43,6 +44,7 @@ yarn add --dev @babel/preset-typescript
 yarn add --dev @babel/preset-env
 yarn add --dev identity-obj-proxy
 yarn add --dev jest @types/jest
+yarn add --dev jest-environment-jsdom
 
 1. jest-setup.ts
 
@@ -57,6 +59,8 @@ yarn add --dev jest @types/jest
         "test": "jest --watchAll"
     }
 ```
+
+delete line "type": "module",
 
 3. jest.config.js
 
