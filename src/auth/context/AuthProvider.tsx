@@ -2,8 +2,7 @@ import { useReducer } from 'react';
 
 import { AuthContext } from './AuthContext'
 import { authReducer, AuthState } from './AuthReducer';
-import { types } from '../types/types';
-import { LoginData } from '../interfaces/authInterface';
+import { LoginData, User } from '../interfaces/authInterface';
 
 
 const authInitialState: AuthState = {
@@ -12,7 +11,7 @@ const authInitialState: AuthState = {
   };
 
 const init = () => {
-    const user = JSON.parse( localStorage.getItem('user') || '' );
+    const user: User = JSON.parse( localStorage.getItem('user') );
 
     return {
         logged: !!user,

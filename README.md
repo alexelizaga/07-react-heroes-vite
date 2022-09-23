@@ -25,6 +25,7 @@
 209. User login
 210. Keep user active
 211. User logout
+212. Private routes
 
 ## Tests
 
