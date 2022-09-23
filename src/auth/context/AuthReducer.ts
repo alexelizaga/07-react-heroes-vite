@@ -6,12 +6,13 @@ export interface AuthState {
     user: User | null;
 }
 
-type AuthAction =
+export type AuthAction =
   | {type: 'logIn'; payload: {user: User}}
-  | {type: 'logOut'};
+  | {type: 'logOut'}
+  | {type: ''};
 
 export const authReducer = ( state: AuthState, action: AuthAction ): AuthState => {
-    switch (action.type) {
+    switch (action?.type) {
         case 'logIn':
             return {
                 ...state,

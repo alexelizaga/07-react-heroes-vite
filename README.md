@@ -29,6 +29,8 @@
 213. Public routes
 214. Remember last view page
 218. Jest setup
+219. Test authReducer
+
 
 ## Tests
 
