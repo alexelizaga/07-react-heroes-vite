@@ -36,6 +36,7 @@
 225. NavBar Test
 227. SearchScreen Test
 228. Test queryParameters
+229. requireActual
 
 
 ## Tests
@@ -47,6 +48,7 @@
 - jest.mock, jest.requireActual
 - getByRole
 - getByLabelText
+- snapshot
 
 ## Install testing
 
