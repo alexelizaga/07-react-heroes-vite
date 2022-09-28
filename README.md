@@ -34,6 +34,7 @@
 223. PrivateRoute Test 
 224. AppRoute Test
 225. NavBar Test
+227. SearchScreen Test
 
 
 ## Tests
