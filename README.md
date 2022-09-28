@@ -33,12 +33,16 @@
 220. PublicRoute Test
 223. PrivateRoute Test 
 224. AppRoute Test
+225. NavBar Test
 
 
 ## Tests
 
 - localStorage
 - getAllByText
+- fireEvent
+- jest.fn()
+- jest.mock, jest.requireActual
 
 ## Install testing
 
