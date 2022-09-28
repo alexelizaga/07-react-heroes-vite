@@ -35,6 +35,7 @@
 224. AppRoute Test
 225. NavBar Test
 227. SearchScreen Test
+228. Test queryParameters
 
 
 ## Tests
@@ -44,6 +45,8 @@
 - fireEvent
 - jest.fn()
 - jest.mock, jest.requireActual
+- getByRole
+- getByLabelText
 
 ## Install testing
 

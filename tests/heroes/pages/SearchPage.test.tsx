@@ -14,4 +14,21 @@ describe('Test <SearchPage/>', () => {
         expect(container).toMatchSnapshot();
     })
 
+    test('should show Batman and imput with queryString value', () => {
+        render(
+            <MemoryRouter initialEntries={["/search?q=batman"]}>
+                <SearchPage />
+            </MemoryRouter>
+        )
+        
+        const input: HTMLInputElement = screen.getByRole('textbox');
+        expect( input.value ).toBe('batman');
+
+        const img: HTMLImageElement = screen.getByRole('img');
+        expect( img.src ).toContain('batman');
+
+        const alert: HTMLDivElement = screen.getByLabelText('alert-danger');
+        expect( alert.style.display ).toBe('none');
+    })
+
  })
