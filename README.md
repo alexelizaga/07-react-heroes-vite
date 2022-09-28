@@ -32,11 +32,13 @@
 219. Test authReducer
 220. PublicRoute Test
 223. PrivateRoute Test 
+224. AppRoute Test
 
 
 ## Tests
 
 - localStorage
+- getAllByText
 
 ## Install testing
 
