@@ -30,11 +30,13 @@
 214. Remember last view page
 218. Jest setup
 219. Test authReducer
+220. PublicRoute Test
+223. PrivateRoute Test 
 
 
 ## Tests
 
-- 
+- localStorage
 
 ## Install testing
 
